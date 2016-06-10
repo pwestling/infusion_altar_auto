@@ -1,0 +1,24 @@
+{
+	"essentiaItems": [
+	],
+	"triggerItems": [
+	],
+	"infusionItems": [
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.wandcasting",
+			"max_size": 1,
+			"max_dmg": 0,
+			"qty": 1,
+			"dmg": 100,
+			"id": "Thaumcraft:WandCasting",
+			"nbt_hash": "da7c234e3ca311fbe8ae9bec28dff21c",
+			"ore_dict": [
+			],
+			"display_name": "Ichorium Adorned Ichorcloth Strapped Silverwood Wand",
+			"name": "WandCasting"
+		}
+	]
+}

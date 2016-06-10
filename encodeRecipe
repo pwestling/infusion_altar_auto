@@ -1,0 +1,37 @@
+base = "tile_thermalexpansion_strongbox_basic_name_"
+essentiaChest = peripheral.wrap(base.."1")
+pedestalChest = peripheral.wrap(base.."3")
+triggerChest = peripheral.wrap(base.."0")
+infusionChest = peripheral.wrap(base.."2")
+
+
+arg = { ... }
+outputFile = arg[1]
+
+essentiaChest.condenseItems()
+pedestalChest.condenseItems()
+triggerChest.condenseItems()
+infusionChest.condenseItems()
+
+function getItems(chest)
+  stacks = chest.getAllStacks()
+  itemArray = {}
+  for slot,item in ipairs(stacks) do
+    table.insert(itemArray, item.all())
+  end
+  return itemArray
+end
+
+essentiaItems = getItems(essentiaChest)
+infusionItems = getItems(infusionChest)
+pedestalItems = getItems(pedestalChest)
+triggerItems = getItems(triggerChest)
+
+result = {essentiaItems = essentiaItems, 
+infusionItems = infusionItems,
+pedestalItems = pedestalItems,
+triggerItems = triggerItems}
+
+file = fs.open(outputFile, "w")
+file.write(json.encodePretty(result))
+file.close()

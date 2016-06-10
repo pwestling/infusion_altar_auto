@@ -1,0 +1,77 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemwispessence",
+			"max_size": 64,
+			"max_dmg": 0,
+			"qty": 3,
+			"dmg": 0,
+			"id": "Thaumcraft:ItemWispEssence",
+			"nbt_hash": "ec96883e36124223662ee4b55e00ac43",
+			"ore_dict": [
+			],
+			"display_name": "Ethereal Essence",
+			"name": "ItemWispEssence"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.redstone",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 6,
+			"id": "minecraft:redstone",
+			"ore_dict": {
+				"dustRedstone": true
+			},
+			"display_name": "Redstone",
+			"name": "redstone"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "ProjRed|Exploration",
+			"raw_name": "tile.projectred.exploration.stone|3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "ProjRed|Exploration:projectred.exploration.stone",
+			"ore_dict": [
+			],
+			"display_name": "Basalt",
+			"name": "projectred.exploration.stone"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.wandcap.6",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 6,
+			"qty": 1,
+			"id": "Thaumcraft:WandCap",
+			"ore_dict": [
+			],
+			"display_name": "Inert Thaumium Cap",
+			"name": "WandCap"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemresource.14",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 14,
+			"qty": 3,
+			"id": "Thaumcraft:ItemResource",
+			"ore_dict": [
+			],
+			"display_name": "Salis Mundus",
+			"name": "ItemResource"
+		}
+	]
+}

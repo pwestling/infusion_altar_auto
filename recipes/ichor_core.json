@@ -1,0 +1,133 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.flint",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 32,
+			"id": "minecraft:flint",
+			"ore_dict": {
+				"itemFlint": true
+			},
+			"display_name": "Flint",
+			"name": "flint"
+		},
+		{
+			"display_name": "Blaze Rod",
+			"qty": 50,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.blazerod",
+			"burn_time": 2400,
+			"id": "minecraft:blaze_rod",
+			"dmg": 0,
+			"ore_dict": {
+				"rodBlaze": true,
+				"itemBlazeRod": true
+			},
+			"name": "blaze_rod",
+			"mod_id": "minecraft"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.torch",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 32,
+			"id": "minecraft:torch",
+			"ore_dict": {
+				"blockTorch": true
+			},
+			"display_name": "Torch",
+			"name": "torch"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.bone",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:bone",
+			"ore_dict": [
+			],
+			"display_name": "Bone",
+			"name": "bone"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.wandrod.2",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 2,
+			"qty": 1,
+			"id": "Thaumcraft:WandRod",
+			"ore_dict": [
+			],
+			"display_name": "Silverwood Rod",
+			"name": "WandRod"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "ThaumicTinkerer",
+			"raw_name": "item.kamiresource",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 2,
+			"id": "ThaumicTinkerer:kamiResource",
+			"ore_dict": [
+			],
+			"display_name": "Ichorcloth",
+			"name": "kamiResource"
+		},
+		{
+			"mod_id": "ThaumicTinkerer",
+			"raw_name": "item.kamiresource",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "ThaumicTinkerer:kamiResource",
+			"ore_dict": [
+			],
+			"display_name": "Ichor",
+			"name": "kamiResource"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemresource.14",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 14,
+			"qty": 2,
+			"id": "Thaumcraft:ItemResource",
+			"ore_dict": [
+			],
+			"display_name": "Salis Mundus",
+			"name": "ItemResource"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.ghasttear",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:ghast_tear",
+			"ore_dict": {
+				"itemGhastTear": true
+			},
+			"display_name": "Ghast Tear",
+			"name": "ghast_tear"
+		}
+	]
+}

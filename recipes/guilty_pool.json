@@ -1,0 +1,686 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.sulphur",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:gunpowder",
+			"ore_dict": {
+				"dustGunpowder": true
+			},
+			"display_name": "Gunpowder",
+			"name": "gunpowder"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.sulphur",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:gunpowder",
+			"ore_dict": {
+				"dustGunpowder": true
+			},
+			"display_name": "Gunpowder",
+			"name": "gunpowder"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 64,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 64,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "Avaritia",
+			"raw_name": "item.avaritia_resource.diamond_lattice",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "Avaritia:Resource",
+			"ore_dict": [
+			],
+			"display_name": "Diamond Lattice",
+			"name": "Resource"
+		}
+	],
+	"infusionItems": [
+		{
+			"display_name": "Creative Portable Tank",
+			"raw_name": "tile.thermalexpansion.tank.creative.name",
+			"max_size": 1,
+			"max_dmg": 0,
+			"qty": 1,
+			"dmg": 0,
+			"id": "ThermalExpansion:Tank",
+			"ore_dict": [
+			],
+			"fluid_container": {
+				"capacity": 1000
+			},
+			"name": "Tank",
+			"mod_id": "ThermalExpansion"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.wandcasting",
+			"max_size": 1,
+			"max_dmg": 0,
+			"qty": 1,
+			"dmg": 100,
+			"id": "Thaumcraft:WandCasting",
+			"nbt_hash": "da7c234e3ca311fbe8ae9bec28dff21c",
+			"ore_dict": [
+			],
+			"display_name": "Ichorium Adorned Ichorcloth Strapped Silverwood Wand",
+			"name": "WandCasting"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune15",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 15,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runePrideB": true
+			},
+			"display_name": "Rune of Pride",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune8",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 8,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeManaB": true
+			},
+			"display_name": "Rune of Mana",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune5",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 5,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeSummerB": true
+			},
+			"display_name": "Rune of Summer",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune0",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeWaterB": true
+			},
+			"display_name": "Rune of Water",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune9",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 9,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeLustB": true
+			},
+			"display_name": "Rune of Lust",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune11",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 11,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeGreedB": true
+			},
+			"display_name": "Rune of Greed",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune12",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 12,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeSlothB": true
+			},
+			"display_name": "Rune of Sloth",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune10",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 10,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeGluttonyB": true
+			},
+			"display_name": "Rune of Gluttony",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeFireB": true
+			},
+			"display_name": "Rune of Fire",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeAirB": true
+			},
+			"display_name": "Rune of Air",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune14",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 14,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeEnvyB": true
+			},
+			"display_name": "Rune of Envy",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune13",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 13,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeWrathB": true
+			},
+			"display_name": "Rune of Wrath",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune7",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 7,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeWinterB": true
+			},
+			"display_name": "Rune of Winter",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune4",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 4,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeSpringB": true
+			},
+			"display_name": "Rune of Spring",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune2",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 2,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeEarthB": true
+			},
+			"display_name": "Rune of Earth",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.rune6",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 6,
+			"qty": 1,
+			"id": "Botania:rune",
+			"ore_dict": {
+				"runeAutumnB": true
+			},
+			"display_name": "Rune of Autumn",
+			"name": "rune"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemeldritchobject.3",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Thaumcraft:ItemEldritchObject",
+			"ore_dict": [
+			],
+			"display_name": "Primordial Pearl",
+			"name": "ItemEldritchObject"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemeldritchobject.3",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Thaumcraft:ItemEldritchObject",
+			"ore_dict": [
+			],
+			"display_name": "Primordial Pearl",
+			"name": "ItemEldritchObject"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemeldritchobject.3",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Thaumcraft:ItemEldritchObject",
+			"ore_dict": [
+			],
+			"display_name": "Primordial Pearl",
+			"name": "ItemEldritchObject"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemeldritchobject.3",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Thaumcraft:ItemEldritchObject",
+			"ore_dict": [
+			],
+			"display_name": "Primordial Pearl",
+			"name": "ItemEldritchObject"
+		},
+		{
+			"mod_id": "AWWayofTime",
+			"raw_name": "item.bloodmagicbaseitem.etherealslate",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 27,
+			"qty": 1,
+			"id": "AWWayofTime:bloodMagicBaseItems",
+			"ore_dict": [
+			],
+			"display_name": "Ethereal Slate",
+			"name": "bloodMagicBaseItems"
+		},
+		{
+			"mod_id": "AWWayofTime",
+			"raw_name": "item.demonicslate",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "AWWayofTime:demonicSlate",
+			"ore_dict": [
+			],
+			"display_name": "Demonic Slate",
+			"name": "demonicSlate"
+		},
+		{
+			"mod_id": "AWWayofTime",
+			"raw_name": "item.reinforcedslate",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "AWWayofTime:reinforcedSlate",
+			"ore_dict": [
+			],
+			"display_name": "Reinforced Slate",
+			"name": "reinforcedSlate"
+		},
+		{
+			"mod_id": "AWWayofTime",
+			"raw_name": "item.imbuedslate",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "AWWayofTime:imbuedSlate",
+			"ore_dict": [
+			],
+			"display_name": "Imbued Slate",
+			"name": "imbuedSlate"
+		},
+		{
+			"mod_id": "AWWayofTime",
+			"raw_name": "item.blankslate",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "AWWayofTime:blankSlate",
+			"ore_dict": [
+			],
+			"display_name": "Blank Slate",
+			"name": "blankSlate"
+		},
+		{
+			"mod_id": "witchery",
+			"raw_name": "item.witchery:ingredient.nullcatalyst",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 130,
+			"qty": 4,
+			"id": "witchery:ingredient",
+			"ore_dict": [
+			],
+			"display_name": "Null Catalyst",
+			"name": "ingredient"
+		},
+		{
+			"mod_id": "AWWayofTime",
+			"raw_name": "tile.crystalblock.fullcrystal",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 4,
+			"id": "AWWayofTime:blockCrystal",
+			"ore_dict": [
+			],
+			"display_name": "Crystal Cluster",
+			"name": "blockCrystal"
+		},
+		{
+			"mod_id": "Botania",
+			"raw_name": "item.gaiaingot",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 14,
+			"qty": 4,
+			"id": "Botania:manaResource",
+			"ore_dict": {
+				"gaiaIngot": true
+			},
+			"display_name": "Gaia Spirit Ingot",
+			"name": "manaResource"
+		}
+	]
+}

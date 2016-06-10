@@ -1,0 +1,272 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.dyepowder.black",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 8,
+			"id": "minecraft:dye",
+			"ore_dict": {
+				"dyeBlack": true,
+				"dye": true
+			},
+			"display_name": "Ink Sac",
+			"name": "dye"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 4,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardFire": true
+			},
+			"display_name": "Fire Shard",
+			"name": "ItemShard"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Iron Pickaxe",
+			"raw_name": "item.pickaxeiron",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 2
+			},
+			"qty": 1,
+			"id": "minecraft:iron_pickaxe",
+			"tool": {
+				"material": "IRON"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "iron_pickaxe",
+			"mod_id": "minecraft"
+		}
+	],
+	"triggerItems": [
+		{
+			"display_name": "Thaumium Pickaxe",
+			"raw_name": "item.itempickthaumium",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 3
+			},
+			"qty": 1,
+			"id": "Thaumcraft:ItemPickThaumium",
+			"tool": {
+				"material": "THAUMIUM"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "ItemPickThaumium",
+			"mod_id": "Thaumcraft"
+		}
+	],
+	"infusionItems": [
+		{
+			"display_name": "Thaumium Pickaxe",
+			"raw_name": "item.itempickthaumium",
+			"max_size": 1,
+			"max_dmg": 1,
+			"tool_class": {
+				"pickaxe": 3
+			},
+			"qty": 1,
+			"id": "Thaumcraft:ItemPickThaumium",
+			"tool": {
+				"material": "THAUMIUM"
+			},
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "ItemPickThaumium",
+			"mod_id": "Thaumcraft"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.diamond",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:diamond",
+			"ore_dict": {
+				"gemDiamond": true
+			},
+			"display_name": "Diamond",
+			"name": "diamond"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 2,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardFire": true
+			},
+			"display_name": "Fire Shard",
+			"name": "ItemShard"
+		},
+		{
+			"display_name": "Greatwood Log",
+			"qty": 1,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "tile.blockmagicallog.greatwood",
+			"burn_time": 300,
+			"id": "Thaumcraft:blockMagicalLog",
+			"dmg": 0,
+			"ore_dict": {
+				"logWood": true
+			},
+			"name": "blockMagicalLog",
+			"mod_id": "Thaumcraft"
+		}
+	]
+}

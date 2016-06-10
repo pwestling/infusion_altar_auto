@@ -1,0 +1,225 @@
+crafting = false
+altar = peripheral.wrap("container_pedestal_0")
+currItem = nil
+
+essentiaRequester = peripheral.wrap("tileinterface_2")
+infusionRequester = peripheral.wrap("tileinterface_0")
+pedestalRequester = peripheral.wrap("tileinterface_1")
+
+redstone.setAnalogOutput("bottom",0)
+
+function isAltarFull()
+  return altar.getStackInSlot(1) ~= nil
+end
+
+function altarItem()
+  return altar.getStackInSlot(1)["display_name"]
+end
+
+function enableInfusion()
+    redstone.setAnalogOutput("bottom",15)
+end
+
+function disableInfusion()
+  redstone.setAnalogOutput("bottom", 0)
+end
+
+function removeFromAltar()
+  altar.pushItem("down",1)
+end
+
+os.loadAPI("json")
+
+function loadRecipes()
+  recipes = {}
+  for i,path in ipairs(fs.list("recipes")) do
+    f = fs.open("recipes/"..path, "r")
+    j = f.readAll()
+    f.close()
+    recipe = json.decode(j)
+    table.insert(recipes,recipe)    
+  end
+  return recipes
+end
+
+craftsWaiting = {}
+craftingJobs = {}
+
+function dump(o)
+   print("Dumping ")
+   if type(o) == 'table' then
+      local s = '{ '
+      for k,v in pairs(o) do
+         if type(k) ~= 'number' then k = '"'..k..'"' end
+         s = s .. '['..k..'] = ' .. dump(v) .. ','
+      end
+      return s .. '} '
+   else
+      return tostring(o)
+   end
+end
+
+essentiaChest = peripheral.wrap("ender_chest_4")
+pedestalChest = peripheral.wrap("tile_thermalexpansion_strongbox_basic_name_5")
+infusionItemChest = peripheral.wrap("ender_chest_6")
+
+
+function revert()
+  clearTo(essentiaChest, "up")
+  clearTo(pedestalChest, "up")
+  clearTo(infusionItemChest, "up")
+end
+
+function requestItems(requester, itemArr, requestCrafts)
+  complete = true
+  jobs = {}
+  for i,item in ipairs(itemArr) do
+    success, exported = pcall(requester.exportItem, item, "down", item.qty)
+    if not success or exported == nil then
+     exported = {size = 0}
+    end
+    if exported.size < item.qty then
+      if requestCrafts then
+        amount = item.qty - exported.size
+        print("Requesting crafting of "..amount.." "..item.display_name)
+        requester.requestCrafting(item, amount)
+        jobObj = {id = jobId(amount, item.id, item.dmg, item.nbtHash), done = false}
+        table.insert(jobs, jobObj)
+        table.insert(craftingJobs, jobObj)
+      end
+      complete = false
+    end    
+  end
+  return complete, jobs
+end
+
+function clearTo(chest, dir)
+  for slot,item in ipairs(chest.getAllStacks()) do
+    chest.pushItem(dir, slot)
+  end
+end
+
+function tryToCraft(chest, recipe, requestCrafts)
+ essentia, eJobs = requestItems(essentiaRequester, recipe.essentiaItems, requestCrafts)
+ infusion, iJobs = requestItems(infusionRequester, recipe.infusionItems, requestCrafts)
+ pedestal, pJobs = requestItems(pedestalRequester, recipe.pedestalItems, requestCrafts)            
+ fullRecipe = essentia and infusion and pedestal
+ if not fullRecipe then
+    revert()
+    if requestCrafts then
+      print("Adding recipe which infuses "..recipe.infusionItems[1].display_name.." to queue")
+      table.insert(craftsWaiting, recipe)
+      recipe.essentiaJobs = eJobs
+      recipe.infusionJobs = iJobs
+      recipe.pedestalJobs = pJobs
+    end
+    return false
+ else
+   return true
+ end
+end
+
+function jobsDone(jobs)
+  for i,job in ipairs(jobs) do
+    if not job.done then
+      return false
+    end
+  end
+  return true
+end
+
+function isDoneCrafting(recipe)
+  return jobsDone(recipe.essentiaJobs) and jobsDone(recipe.infusionJobs) and jobsDone(recipe.pedestalJobs)
+end
+
+
+function requestRecipeByTrigger(chest, recipe)
+  stacks = chest.getAllStacks()
+  for slot,item in ipairs(stacks) do
+    if item.all().display_name == recipe.triggerItems[1].display_name then
+       print("Found trigger "..item.all().display_name)
+       crafted =  tryToCraft(chest, recipe, true)
+       chest.pushItem("south", slot)
+       return crafted
+    end
+  end
+end    
+
+
+function requestQueuedRecipe(chest, recipe, recipeSlot)
+  if isDoneCrafting(recipe) then
+    table.remove(craftsWaiting, recipeSlot)
+    crafted = tryToCraft(chest, recipe, true)
+    return crafted
+  end
+end
+
+inputChest = peripheral.wrap("ender_chest_3")
+
+function jobId(qty,id,dmg,nbt)
+  if nbt == nil then
+    nbt = "nil"
+  end
+  return qty..":"..id..":"..dmg..":"..nbt
+end
+
+function listenForCrafts()
+  while true do
+    key, stack, state = os.pullEvent("crafting_state")
+    jobid = jobId(stack.size, stack.fingerprint.id, stack.fingerprint.dmg, stack.fingerprint.nbtHash)
+    for i,job in ipairs(craftingJobs) do
+      if job.id == jobid then
+        table.remove(craftingJobs, i)
+        sleep(3)
+        job.done = true
+        print("Job "..job.id.." is done")
+      end
+    end
+  end
+end
+
+function craftItems()
+revert()
+while true do 
+
+ if not crafting and not isAltarFull() then
+   done = false
+   recipes = loadRecipes()
+   for i,r in ipairs(recipes) do
+     if not done and requestRecipeByTrigger(inputChest, r) then
+       enableInfusion()
+       done = true
+     end     
+   end
+   for i,r in ipairs(craftsWaiting) do
+    if not done and requestQueuedRecipe(inputChest, r, i) then
+      print("Processed recipe which infuses "..r.infusionItems[1].display_name.." from queue")
+      enableInfusion()
+      done = true
+    end
+   end   
+ end
+ 
+ if crafting and not isAltarFull() then
+   error("Altar empty during craft, aborting")
+ end
+ 
+ if not crafting and isAltarFull() then
+   sleep(4)
+   crafting = true
+   currItem = altarItem()
+   print("Infusing a " .. currItem)
+ end
+ 
+ if crafting and altarItem() ~= currItem then
+   print("Crafted a " .. altarItem())
+   removeFromAltar()
+   crafting = false
+   disableInfusion()
+   sleep(1)
+ end
+ sleep(2) 
+end
+end
+
+parallel.waitForAll(craftItems, listenForCrafts)

@@ -1,0 +1,173 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.paper",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:paper",
+			"ore_dict": [
+			],
+			"display_name": "Paper",
+			"name": "paper"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.paper",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:paper",
+			"ore_dict": [
+			],
+			"display_name": "Paper",
+			"name": "paper"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemwispessence",
+			"max_size": 64,
+			"max_dmg": 0,
+			"qty": 16,
+			"dmg": 0,
+			"id": "Thaumcraft:ItemWispEssence",
+			"nbt_hash": "ec96883e36124223662ee4b55e00ac43",
+			"ore_dict": [
+			],
+			"display_name": "Ethereal Essence",
+			"name": "ItemWispEssence"
+		},
+		{
+			"display_name": "Blaze Rod",
+			"qty": 25,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.blazerod",
+			"burn_time": 2400,
+			"id": "minecraft:blaze_rod",
+			"dmg": 0,
+			"ore_dict": {
+				"rodBlaze": true,
+				"itemBlazeRod": true
+			},
+			"name": "blaze_rod",
+			"mod_id": "minecraft"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "tile.blocktaint.1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 6,
+			"id": "Thaumcraft:blockTaint",
+			"ore_dict": [
+			],
+			"display_name": "Tainted Soil",
+			"name": "blockTaint"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.enderpearl",
+			"max_size": 16,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:ender_pearl",
+			"ore_dict": {
+				"pearlEnder": true
+			},
+			"display_name": "Ender Pearl",
+			"name": "ender_pearl"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.enderpearl",
+			"max_size": 16,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:ender_pearl",
+			"ore_dict": {
+				"pearlEnder": true
+			},
+			"display_name": "Ender Pearl",
+			"name": "ender_pearl"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.enchantmenttable",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:enchanting_table",
+			"ore_dict": [
+			],
+			"display_name": "Enchantment Table",
+			"name": "enchanting_table"
+		},
+		{
+			"mod_id": "ThaumicTinkerer",
+			"raw_name": "item.xptalisman",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "ThaumicTinkerer:xpTalisman",
+			"ore_dict": [
+			],
+			"display_name": "Talisman of Withhold",
+			"name": "xpTalisman"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.diamond",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:diamond",
+			"ore_dict": {
+				"gemDiamond": true
+			},
+			"display_name": "Diamond",
+			"name": "diamond"
+		},
+		{
+			"mod_id": "ThaumicTinkerer",
+			"raw_name": "item.kamiresource",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 2,
+			"id": "ThaumicTinkerer:kamiResource",
+			"ore_dict": [
+			],
+			"display_name": "Ichor",
+			"name": "kamiResource"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.expbottle",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:experience_bottle",
+			"ore_dict": [
+			],
+			"display_name": "Bottle o' Enchanting",
+			"name": "experience_bottle"
+		}
+	]
+}

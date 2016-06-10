@@ -1,0 +1,136 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.ingotgold",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 10,
+			"id": "minecraft:gold_ingot",
+			"ore_dict": {
+				"ingotGold": true
+			},
+			"display_name": "Gold Ingot",
+			"name": "gold_ingot"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemresource.3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 5,
+			"id": "Thaumcraft:ItemResource",
+			"ore_dict": {
+				"nuggetQuicksilver": true,
+				"quicksilver": true
+			},
+			"display_name": "Quicksilver",
+			"name": "ItemResource"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.string",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 10,
+			"id": "minecraft:string",
+			"ore_dict": [
+			],
+			"display_name": "String",
+			"name": "string"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.redstone",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 5,
+			"id": "minecraft:redstone",
+			"ore_dict": {
+				"dustRedstone": true
+			},
+			"display_name": "Redstone",
+			"name": "redstone"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.ingotgold",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:gold_ingot",
+			"ore_dict": {
+				"ingotGold": true
+			},
+			"display_name": "Gold Ingot",
+			"name": "gold_ingot"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.ingotgold",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:gold_ingot",
+			"ore_dict": {
+				"ingotGold": true
+			},
+			"display_name": "Gold Ingot",
+			"name": "gold_ingot"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.netherquartz",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 2,
+			"id": "minecraft:quartz",
+			"ore_dict": {
+				"crystalNetherQuartz": true,
+				"gemQuartz": true
+			},
+			"display_name": "Nether Quartz",
+			"name": "quartz"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.diamond",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:diamond",
+			"ore_dict": {
+				"gemDiamond": true
+			},
+			"display_name": "Diamond",
+			"name": "diamond"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemzombiebrain",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "Thaumcraft:ItemZombieBrain",
+			"ore_dict": [
+			],
+			"display_name": "Zombie Brain",
+			"name": "ItemZombieBrain"
+		}
+	]
+}

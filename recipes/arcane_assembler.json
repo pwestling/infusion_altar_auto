@@ -1,0 +1,225 @@
+{
+	"essentiaItems": [
+		{
+			"display_name": "Crafting Table",
+			"qty": 16,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "tile.workbench",
+			"burn_time": 300,
+			"id": "minecraft:crafting_table",
+			"dmg": 0,
+			"ore_dict": {
+				"crafterWood": true,
+				"craftingTableWood": true
+			},
+			"name": "crafting_table",
+			"mod_id": "minecraft"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemwispessence",
+			"max_size": 64,
+			"max_dmg": 0,
+			"qty": 8,
+			"dmg": 0,
+			"id": "Thaumcraft:ItemWispEssence",
+			"nbt_hash": "ec96883e36124223662ee4b55e00ac43",
+			"ore_dict": [
+			],
+			"display_name": "Ethereal Essence",
+			"name": "ItemWispEssence"
+		},
+		{
+			"display_name": "Blaze Rod",
+			"qty": 8,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.blazerod",
+			"burn_time": 2400,
+			"id": "minecraft:blaze_rod",
+			"dmg": 0,
+			"ore_dict": {
+				"rodBlaze": true,
+				"itemBlazeRod": true
+			},
+			"name": "blaze_rod",
+			"mod_id": "minecraft"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemresource.3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 16,
+			"id": "Thaumcraft:ItemResource",
+			"ore_dict": {
+				"nuggetQuicksilver": true,
+				"quicksilver": true
+			},
+			"display_name": "Quicksilver",
+			"name": "ItemResource"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.glass",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 8,
+			"id": "minecraft:glass",
+			"ore_dict": {
+				"glass": true,
+				"blockGlassColorless": true,
+				"blockGlass": true
+			},
+			"display_name": "Glass",
+			"name": "glass"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "tile.blockcosmeticsolid.11",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 11,
+			"qty": 1,
+			"id": "Thaumcraft:blockCosmeticSolid",
+			"ore_dict": [
+			],
+			"display_name": "Ancient Stone",
+			"name": "blockCosmeticSolid"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "appliedenergistics2",
+			"raw_name": "tile.appliedenergistics2.blockmolecularassembler",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "appliedenergistics2:tile.BlockMolecularAssembler",
+			"ore_dict": [
+			],
+			"display_name": "Molecular Assembler",
+			"name": "tile.BlockMolecularAssembler"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.wandcasting",
+			"max_size": 1,
+			"max_dmg": 0,
+			"qty": 1,
+			"dmg": 81,
+			"id": "Thaumcraft:WandCasting",
+			"nbt_hash": "0ba377d7b66cbc22142bc233bc015fce",
+			"ore_dict": [
+			],
+			"display_name": "Thaumium Bossed Silverwood Scepter",
+			"name": "WandCasting"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.0",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardAir": true
+			},
+			"display_name": "Air Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardEarth": true
+			},
+			"display_name": "Earth Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardFire": true
+			},
+			"display_name": "Fire Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.6",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 6,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardBalance": true
+			},
+			"display_name": "Balanced Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.4",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 4,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardOrder": true
+			},
+			"display_name": "Order Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.5",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 5,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardEntropy": true
+			},
+			"display_name": "Entropy Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.2",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 2,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardWater": true
+			},
+			"display_name": "Water Shard",
+			"name": "ItemShard"
+		}
+	]
+}

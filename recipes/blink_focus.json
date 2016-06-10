@@ -1,0 +1,146 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.bed",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:bed",
+			"ore_dict": [
+			],
+			"display_name": "Bed",
+			"name": "bed"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.bed",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:bed",
+			"ore_dict": [
+			],
+			"display_name": "Bed",
+			"name": "bed"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.bed",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:bed",
+			"ore_dict": [
+			],
+			"display_name": "Bed",
+			"name": "bed"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.enderpearl",
+			"max_size": 16,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 7,
+			"id": "minecraft:ender_pearl",
+			"ore_dict": {
+				"pearlEnder": true
+			},
+			"display_name": "Ender Pearl",
+			"name": "ender_pearl"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebrick",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 25,
+			"id": "minecraft:cobblestone",
+			"ore_dict": {
+				"cobblestone": true
+			},
+			"display_name": "Cobblestone",
+			"name": "cobblestone"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.hellrock",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 10,
+			"id": "minecraft:netherrack",
+			"ore_dict": {
+				"netherrack": true
+			},
+			"display_name": "Netherrack",
+			"name": "netherrack"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.bed",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:bed",
+			"ore_dict": [
+			],
+			"display_name": "Bed",
+			"name": "bed"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.enderpearl",
+			"max_size": 16,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:ender_pearl",
+			"ore_dict": {
+				"pearlEnder": true
+			},
+			"display_name": "Ender Pearl",
+			"name": "ender_pearl"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.netherquartz",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 3,
+			"id": "minecraft:quartz",
+			"ore_dict": {
+				"crystalNetherQuartz": true,
+				"gemQuartz": true
+			},
+			"display_name": "Nether Quartz",
+			"name": "quartz"
+		},
+		{
+			"mod_id": "ForbiddenMagic",
+			"raw_name": "item.nethershard.sloth",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 5,
+			"qty": 3,
+			"id": "ForbiddenMagic:NetherShard",
+			"ore_dict": [
+			],
+			"display_name": "Sloth Shard",
+			"name": "NetherShard"
+		}
+	]
+}

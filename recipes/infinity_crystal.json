@@ -1,0 +1,221 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.torch",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:torch",
+			"ore_dict": {
+				"blockTorch": true
+			},
+			"display_name": "Torch",
+			"name": "torch"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.glass",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:glass",
+			"ore_dict": {
+				"glass": true,
+				"blockGlassColorless": true,
+				"blockGlass": true
+			},
+			"display_name": "Glass",
+			"name": "glass"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemresource.3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 32,
+			"id": "Thaumcraft:ItemResource",
+			"ore_dict": {
+				"nuggetQuicksilver": true,
+				"quicksilver": true
+			},
+			"display_name": "Quicksilver",
+			"name": "ItemResource"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.redstone",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:redstone",
+			"ore_dict": {
+				"dustRedstone": true
+			},
+			"display_name": "Redstone",
+			"name": "redstone"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemwispessence",
+			"max_size": 64,
+			"max_dmg": 0,
+			"qty": 64,
+			"dmg": 0,
+			"id": "Thaumcraft:ItemWispEssence",
+			"nbt_hash": "ec96883e36124223662ee4b55e00ac43",
+			"ore_dict": [
+			],
+			"display_name": "Ethereal Essence",
+			"name": "ItemWispEssence"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "Avaritia",
+			"raw_name": "item.avaritia_resource.crystal_matrix_ingot",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 1,
+			"id": "Avaritia:Resource",
+			"ore_dict": [
+			],
+			"display_name": "Crystal Matrix Ingot",
+			"name": "Resource"
+		}
+	],
+	"infusionItems": [
+		{
+			"health_bar": 1,
+			"qty": 1,
+			"display_name": "Ultimate Solar Panel",
+			"max_dmg": 0,
+			"max_size": 64,
+			"raw_name": "tile.solarexpansion:solarpanelultimate",
+			"id": "SolarExpansion:solarPanelUltimate",
+			"dmg": 0,
+			"ore_dict": [
+			],
+			"name": "solarPanelUltimate",
+			"mod_id": "SolarExpansion"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketcryotheum",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 4,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketCryotheum": true
+			},
+			"display_name": "Gelid Cryotheum Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketglowstone",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketGlowstone": true
+			},
+			"display_name": "Energized Glowstone Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketpyrotheum",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketPyrotheum": true
+			},
+			"display_name": "Blazing Pyrotheum Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketredstone",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketRedstone": true
+			},
+			"display_name": "Destabilized Redstone Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketaerotheum",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 7,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketAerotheum": true
+			},
+			"display_name": "Zephyrean Aerotheum Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketpetrotheum",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 8,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketPetrotheum": true
+			},
+			"display_name": "Tectonic Petrotheum Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ThermalFoundation",
+			"raw_name": "item.thermalfoundation.bucket.bucketender",
+			"max_size": 1,
+			"max_dmg": 0,
+			"dmg": 2,
+			"qty": 1,
+			"id": "ThermalFoundation:bucket",
+			"ore_dict": {
+				"bucketEnder": true
+			},
+			"display_name": "Resonant Ender Bucket",
+			"name": "bucket"
+		},
+		{
+			"mod_id": "ExtraUtilities",
+			"raw_name": "tile.extrautils:purelove",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 7,
+			"id": "ExtraUtilities:pureLove",
+			"ore_dict": [
+			],
+			"display_name": "Pure Mana",
+			"name": "pureLove"
+		}
+	]
+}

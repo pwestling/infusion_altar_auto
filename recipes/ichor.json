@@ -1,0 +1,134 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.hellsand",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 64,
+			"id": "minecraft:soul_sand",
+			"ore_dict": {
+				"soulSand": true
+			},
+			"display_name": "Soul Sand",
+			"name": "soul_sand"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.rottenflesh",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 32,
+			"id": "minecraft:rotten_flesh",
+			"ore_dict": [
+			],
+			"display_name": "Rotten Flesh",
+			"name": "rotten_flesh"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.yellowdust",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 16,
+			"id": "minecraft:glowstone_dust",
+			"ore_dict": {
+				"dustGlowstone": true
+			},
+			"display_name": "Glowstone Dust",
+			"name": "glowstone_dust"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.obsidian",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:obsidian",
+			"ore_dict": {
+				"obsidian": true,
+				"blockObsidian": true
+			},
+			"display_name": "Obsidian",
+			"name": "obsidian"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.netherstar",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:nether_star",
+			"ore_dict": {
+				"itemNetherStar": true
+			},
+			"display_name": "Nether Star",
+			"name": "nether_star"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.diamond",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:diamond",
+			"ore_dict": {
+				"gemDiamond": true
+			},
+			"display_name": "Diamond",
+			"name": "diamond"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.eyeofender",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:ender_eye",
+			"ore_dict": {
+				"pearlEnderEye": true
+			},
+			"display_name": "Eye of Ender",
+			"name": "ender_eye"
+		},
+		{
+			"mod_id": "ThaumicTinkerer",
+			"raw_name": "item.kamiresource",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 7,
+			"qty": 1,
+			"id": "ThaumicTinkerer:kamiResource",
+			"ore_dict": [
+			],
+			"display_name": "Ender Shard",
+			"name": "kamiResource"
+		},
+		{
+			"mod_id": "ThaumicTinkerer",
+			"raw_name": "item.kamiresource",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 6,
+			"qty": 1,
+			"id": "ThaumicTinkerer:kamiResource",
+			"ore_dict": [
+			],
+			"display_name": "Nether Shard",
+			"name": "kamiResource"
+		}
+	]
+}

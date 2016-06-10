@@ -1,0 +1,208 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebricksmooth.chiseled",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 9,
+			"id": "minecraft:stonebrick",
+			"ore_dict": [
+			],
+			"display_name": "Chiseled Stone Bricks",
+			"name": "stonebrick"
+		},
+		{
+			"display_name": "Charcoal",
+			"qty": 9,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.charcoal",
+			"burn_time": 1600,
+			"id": "minecraft:coal",
+			"dmg": 1,
+			"ore_dict": {
+				"itemCharcoal": true,
+				"charcoal": true
+			},
+			"name": "coal",
+			"mod_id": "minecraft"
+		},
+		{
+			"display_name": "Sugar Canes",
+			"qty": 9,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "item.reeds",
+			"burn_time": 50,
+			"id": "minecraft:reeds",
+			"dmg": 0,
+			"ore_dict": {
+				"cropSugarcane": true
+			},
+			"name": "reeds",
+			"mod_id": "minecraft"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebrick",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 9,
+			"id": "minecraft:cobblestone",
+			"ore_dict": {
+				"cobblestone": true
+			},
+			"display_name": "Cobblestone",
+			"name": "cobblestone"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.netherstalkseeds",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 9,
+			"id": "minecraft:nether_wart",
+			"ore_dict": [
+			],
+			"display_name": "Nether Wart",
+			"name": "nether_wart"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.sand.default",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:sand",
+			"ore_dict": {
+				"sand": true
+			},
+			"display_name": "Sand",
+			"name": "sand"
+		}
+	],
+	"infusionItems": [
+		{
+			"display_name": "Silverwood Log",
+			"qty": 1,
+			"max_size": 64,
+			"max_dmg": 0,
+			"raw_name": "tile.blockmagicallog.silverwood",
+			"burn_time": 300,
+			"id": "Thaumcraft:blockMagicalLog",
+			"dmg": 1,
+			"ore_dict": {
+				"logWood": true
+			},
+			"name": "blockMagicalLog",
+			"mod_id": "Thaumcraft"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.0",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardAir": true
+			},
+			"display_name": "Air Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.6",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 6,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardBalance": true
+			},
+			"display_name": "Balanced Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.4",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 4,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardOrder": true
+			},
+			"display_name": "Order Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.3",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 3,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardEarth": true
+			},
+			"display_name": "Earth Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.5",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 5,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardEntropy": true
+			},
+			"display_name": "Entropy Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.2",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 2,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardWater": true
+			},
+			"display_name": "Water Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardFire": true
+			},
+			"display_name": "Fire Shard",
+			"name": "ItemShard"
+		}
+	]
+}

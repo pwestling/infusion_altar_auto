@@ -1,0 +1,148 @@
+{
+	"essentiaItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.netherbrick",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 25,
+			"id": "minecraft:netherbrick",
+			"ore_dict": {
+				"ingotBrickNether": true
+			},
+			"display_name": "Nether Brick",
+			"name": "netherbrick"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.string",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 15,
+			"id": "minecraft:string",
+			"ore_dict": [
+			],
+			"display_name": "String",
+			"name": "string"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.0",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 15,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardAir": true
+			},
+			"display_name": "Air Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "minecraft",
+			"raw_name": "tile.stonebrick",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 25,
+			"id": "minecraft:cobblestone",
+			"ore_dict": {
+				"cobblestone": true
+			},
+			"display_name": "Cobblestone",
+			"name": "cobblestone"
+		}
+	],
+	"triggerItems": [
+		{
+			"mod_id": "witchery",
+			"raw_name": "item.witchery:ingredient.batwool",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 24,
+			"qty": 1,
+			"id": "witchery:ingredient",
+			"ore_dict": [
+			],
+			"display_name": "Wool of Bat",
+			"name": "ingredient"
+		}
+	],
+	"pedestalItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.netherquartz",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 3,
+			"id": "minecraft:quartz",
+			"ore_dict": {
+				"crystalNetherQuartz": true,
+				"gemQuartz": true
+			},
+			"display_name": "Nether Quartz",
+			"name": "quartz"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.5",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 5,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardEntropy": true
+			},
+			"display_name": "Entropy Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.0",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardAir": true
+			},
+			"display_name": "Air Shard",
+			"name": "ItemShard"
+		},
+		{
+			"mod_id": "Thaumcraft",
+			"raw_name": "item.itemshard.1",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 1,
+			"qty": 1,
+			"id": "Thaumcraft:ItemShard",
+			"ore_dict": {
+				"shardFire": true
+			},
+			"display_name": "Fire Shard",
+			"name": "ItemShard"
+		}
+	],
+	"infusionItems": [
+		{
+			"mod_id": "minecraft",
+			"raw_name": "item.magmacream",
+			"max_size": 64,
+			"max_dmg": 0,
+			"dmg": 0,
+			"qty": 1,
+			"id": "minecraft:magma_cream",
+			"ore_dict": [
+			],
+			"display_name": "Magma Cream",
+			"name": "magma_cream"
+		}
+	]
+}
